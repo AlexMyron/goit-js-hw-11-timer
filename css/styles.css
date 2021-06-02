@@ -1,0 +1,26 @@
+.timer {
+  outline: 1px solid red;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(151, 151, 151);
+  color: #ffffff;
+  font-size: 58px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field:not(:first-child) {
+  margin-left: 45px;
+}
+
+.value {
+  text-align: center;
+}
+
+.label {
+  font-size: 34px;
+}
