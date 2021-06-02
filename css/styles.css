@@ -1,12 +1,22 @@
+body {
+  padding-top: 50px;
+}
+
 .timer {
-  outline: 1px solid red;
-  padding: 20px;
   display: flex;
   justify-content: center;
+  padding: 20px;
+  width: fit-content;
+  margin: 0 auto;
 
-  background-color: rgb(151, 151, 151);
-  color: #ffffff;
+  background-color: rgb(255, 251, 251);
+  color: #000000;
   font-size: 58px;
+
+  border-radius: 4px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.2);
 }
 .field {
   display: flex;
